@@ -1,0 +1,23 @@
+
+body{
+    align-content: center
+}
+
+.header{
+   color: #ffffff;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: #4aaaa5;
+   border-color: black;
+}
+
+.footer{
+    background-color: #666666;
+}
+
+h4{
+    color: green;
+}
+
+ul{
+    list-style: none;
+}
