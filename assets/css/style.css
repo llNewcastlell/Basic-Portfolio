@@ -27,7 +27,7 @@ background{
 .header{
    color: #ffffff;
    font-family: Georgia, 'Times New Roman', Times, serif;
-   padding: 0 15% 0 24%;
+   padding: 0 15% 0 15%;
    padding-bottom: 75px;
    font-size: 25px;
    background-color: #ffffff;
@@ -68,9 +68,10 @@ h2{
 footer{
     background-color: #666666;
     border-top: 6px solid #4aaaa5;
-    padding: 30px 20px 40px 30px;
+    padding: 5px 20px 5px 30px;
     text-align: center;
-    position: fixed;
+    position: absolute;
+    right: 0;
     left: 0;
     bottom: 0;
     width: 100%
@@ -79,6 +80,7 @@ footer{
 
 h4{
     color: #ffffff;
+    padding: 10px;
 }
 
 .nav ul li {
@@ -92,12 +94,6 @@ a{
     color: #666666;
 }
 
-.portfolio{
-    border:none;
-    margin: 0 auto 0 auto;
-    padding: 20px;
-    width: 960px;
-}
 
 .contact{
     border:none;
@@ -112,6 +108,7 @@ a{
 
 img{
     float: left;
+    z-index: 1;
 }
 
 .button{ 
@@ -119,3 +116,62 @@ img{
     padding: 15px 32px;
     color: #ffffff
 }
+
+
+.portfolio{
+    border:none;
+    margin: 0 auto 0 auto;
+    padding: 0px;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+.hangman{
+    position: fixed;
+    padding: 0% 10% 10% 0% ;
+    margin: 10px;
+    float: left;
+    color: #ffffff
+        
+}
+
+.rpggame{
+    position: fixed;
+    padding: 0% 20% 20% 20%;
+    margin: 10px;
+    float: left;
+    color: #ffffff
+}
+
+.trivagame{
+    position: fixed;
+    padding: 13% 10% 15% 0%;
+    margin: 10px;
+    float: left;
+    color: #ffffff
+}
+
+.rutgerinfowidget{
+    position: fixed;
+    padding: 13% 20% 20% 20%;
+    margin: 10px;
+    float: left;
+    color: #ffffff
+}
+
+.rockpaperscissors{
+    position: fixed;
+    padding: 20% 20% 0% 10%;
+    margin: 67px;
+    float: left;
+    color: #ffffff
+}
+
+h3{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    /* margin-top: 90%; */
+    background-color: #4aaaa5;
+    z-index: 2;
+
+}    
