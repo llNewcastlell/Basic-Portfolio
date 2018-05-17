@@ -1,13 +1,14 @@
 body{
-    background-image: 
+    background-image: url(what-the-hex.png);
+    
 }
 .content{
     position: relative;
     align-content: center;
-    border-style:solid;
-    border-color: green;
-    padding: 120px 0px 120px 0px;
-
+    border:none;
+    padding: 120px 0px 120px 200px;
+    width: 960px;
+    
 }
 
 .header{
@@ -29,8 +30,12 @@ h1{
 .nav{
     position: absolute;
     right: 50px;
+    margin-top: 40px;
 }
-
+#profile{
+    /* float: left; */
+    display: inline-block;
+}
 p{
     padding-top: 100px;
 }
@@ -46,8 +51,9 @@ h2{
 footer{
     background-color: #666666;
     border-top: 6px #4aaaa5;
-    padding: 30px;
+    padding: 30px 20px 40px 30px;
     text-align: center;
+    
    
 }
 
@@ -55,6 +61,7 @@ h4{
     color: #ffffff;
 }
 
-ul{
+.nav ul li {
     list-style: none;
+    display: inline;
 }
